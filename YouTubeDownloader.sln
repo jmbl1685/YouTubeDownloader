@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Entities", "YouTubeDownloader.Entities\YouTubeDownloader.Entities.csproj", "{E7BAB3CE-2E42-4B58-9A76-7E9B3E45E2A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Helpers", "YouTubeDownloader.Helpers\YouTubeDownloader.Helpers.csproj", "{9E6EDF47-C755-4DE4-AC3A-3E66B302FF3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.ConsoleApp", "YouTubeDownloader.ConsoleApp\YouTubeDownloader.ConsoleApp.csproj", "{759B1B4E-403E-4FA3-A2C8-5C230182694D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.ExtensionUtility", "YouTubeDownloader.ExtensionUtility\YouTubeDownloader.ExtensionUtility.csproj", "{87EA884E-F2E7-460A-AF90-E885D07F9DEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.Services", "YouTubeDownloader.Services\YouTubeDownloader.Services.csproj", "{6AFA0E7D-8E4E-430A-86EB-CF218BCE7626}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeDownloader.DesktopUI", "YouTubeDownloader.DesktopUI\YouTubeDownloader.DesktopUI.csproj", "{FCB39B96-F0EE-4DB2-AAF8-F09EE6AF3C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7BAB3CE-2E42-4B58-9A76-7E9B3E45E2A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BAB3CE-2E42-4B58-9A76-7E9B3E45E2A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BAB3CE-2E42-4B58-9A76-7E9B3E45E2A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BAB3CE-2E42-4B58-9A76-7E9B3E45E2A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6EDF47-C755-4DE4-AC3A-3E66B302FF3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6EDF47-C755-4DE4-AC3A-3E66B302FF3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6EDF47-C755-4DE4-AC3A-3E66B302FF3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6EDF47-C755-4DE4-AC3A-3E66B302FF3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{759B1B4E-403E-4FA3-A2C8-5C230182694D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{759B1B4E-403E-4FA3-A2C8-5C230182694D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{759B1B4E-403E-4FA3-A2C8-5C230182694D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{759B1B4E-403E-4FA3-A2C8-5C230182694D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EA884E-F2E7-460A-AF90-E885D07F9DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EA884E-F2E7-460A-AF90-E885D07F9DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EA884E-F2E7-460A-AF90-E885D07F9DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EA884E-F2E7-460A-AF90-E885D07F9DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFA0E7D-8E4E-430A-86EB-CF218BCE7626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFA0E7D-8E4E-430A-86EB-CF218BCE7626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFA0E7D-8E4E-430A-86EB-CF218BCE7626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFA0E7D-8E4E-430A-86EB-CF218BCE7626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB39B96-F0EE-4DB2-AAF8-F09EE6AF3C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB39B96-F0EE-4DB2-AAF8-F09EE6AF3C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB39B96-F0EE-4DB2-AAF8-F09EE6AF3C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB39B96-F0EE-4DB2-AAF8-F09EE6AF3C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {512257BF-151D-4330-8AEE-BC1E84B286D5}
+	EndGlobalSection
+EndGlobal

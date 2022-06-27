@@ -12,6 +12,14 @@ namespace YoutubeDownloader
 
         }
 
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            Rectangle borderRectangle = new Rectangle(1, 1, ClientRectangle.Width - 2, ClientRectangle.Height - 2);
+
+            e.Graphics.DrawRectangle(Pens.Black, borderRectangle);
+            base.OnPaint(e);
+        }
+
         protected override void WndProc(ref Message m)
         {
             switch (m.Msg)

@@ -222,6 +222,7 @@
             // 
             // closeProgram
             // 
+            this.closeProgram.Cursor = System.Windows.Forms.Cursors.Hand;
             this.closeProgram.Image = global::YouTubeDownloader.DesktopUI.Properties.Resources.close;
             this.closeProgram.Location = new System.Drawing.Point(769, 12);
             this.closeProgram.Name = "closeProgram";
